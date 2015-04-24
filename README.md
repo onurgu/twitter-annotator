@@ -4,7 +4,7 @@ Download release
 
 Before configuring your Google Chrome,
 
-1) Download [release v0.1][https://github.com/onurgu/twitter-annotator/archive/v0.1.zip]
+1) Download [release v0.1](htps://github.com/onurgu/twitter-annotator/archive/v0.1.zip)
 
 2) Extract it in a suitable place.
 
