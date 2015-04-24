@@ -75,3 +75,12 @@ Here I tagged a bird name also.
 And finally, I tagged the action below.
 
 ![](docs/images/inline-12.png?raw=true)
+
+Two more images
+=====
+
+As you see in the next two images, the annotations may be used to conclude that a columnist published some essay about Nina Simone.
+
+![](docs/images/inline-13.png?raw=true)
+
+![](docs/images/inline-14.png?raw=true)
