@@ -53,7 +53,7 @@ You can tag as you like there.
 
 When you click save, it will be saved, dont' mind if it complains about annotations not being created.
 
-Now there will be a faint yellow bakground
+Now there will be a faint yellow background
 
 ![](docs/images/inline-8.png?raw=true)
 
