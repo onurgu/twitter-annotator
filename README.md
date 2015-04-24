@@ -2,12 +2,16 @@
 Download release
 ====
 
-Before starting to follow the instrutions below, download ext-20150424.zip
+Before configuring your Google Chrome,
+
+1) Download [release v0.1][https://github.com/onurgu/twitter-annotator/archive/v0.1.zip]
+
+2) Extract it in a suitable place.
 
 Configure Google Chrome
 ====
 
-To install it on your Google Chrome, you must perform the following steps:
+To install the extension on your Google Chrome, you must perform the following steps:
 
 1) First go to extensions page
 
@@ -17,7 +21,7 @@ To install it on your Google Chrome, you must perform the following steps:
 
 ![](docs/images/inline-2.png?raw=true)
 
-3) Then click 'Load unpacked extension' and select the directory that you just extracted the ext-20150424.zip archive.
+3) Then click 'Load unpacked extension' and select the `ext` directory in the directory that you just extracted from the downloaded archive.
 
 Right now you should be able to see something like this:
 
