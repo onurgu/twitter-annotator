@@ -1,0 +1,62 @@
+{
+    "name": "Twitter Annotator",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "This tool allows to you annotate Twitter content and to see others' annotations.",
+    "homepage_url": "http://github.com/onurgu/twitter-annotator",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "page": "src/bg/background.html",
+        //"scripts": [ "src/bg/background.js" ],
+        "persistent": true
+    },
+    "options_page": "src/options_custom/index.html",
+    "page_action": {
+        "default_icon": {
+            "19": "icons/icon19.png"
+        }//,
+        //"default_popup": "src/page_action/page_action.html"
+    },
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "notifications",
+        "webNavigation",
+        "tabs",
+        "https://*.twitter.com/*",
+        "https://twitter.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.twitter.com/*",
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "js/jquery/jquery-2.1.1.min.js",
+                "js/annotator/annotator-full.min.js",
+                "js/annotator/annotator-init.js",
+                "src/inject/injector.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        "css/annotator/annotator.min.css",
+        "js/annotator/annotator-full.min.js",
+        "js/annotator/annotator-full.min.map",
+        //"js/annotator/annotator-full.js",
+        //"js/annotator/annotator-full.map",
+        "js/annotator/annotator-init.js",
+        //"js/angular/angular.min.js",
+        //"js/angular/angular.min.map",
+        "js/jquery/jquery-2.1.1.min.js",
+        "js/jquery/jquery-2.1.1.min.map",
+        "src/page_action/page_action.html"
+    ]
+}
